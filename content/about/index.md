@@ -2,10 +2,14 @@
 title: "About"
 date: 2026-02-12
 draft: false
+hidemeta: true
+ShowBreadCrumbs: false
 ---
 
 ## Halo!
 
-Saya Gray Zein Syah Putra. Selamat datang di blog saya.
+Saya Gray Zein Syah Putra, tinggal di Yogyakarta.
 
-Blog ini berisi tulisan-tulisan tentang hal-hal yang menarik buat saya.
+Blog ini adalah ruang saya untuk berbagi pemikiran dan hal-hal menarik.
+
+Terima kasih sudah mampir.
