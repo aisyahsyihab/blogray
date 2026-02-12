@@ -1,0 +1,58 @@
+baseURL = "https://gryzein.github.io/blogray/"
+title = "Blogray"
+languageCode = "id"
+defaultContentLanguage = "id"
+theme = "meme"
+
+# Clean UI settings
+[params]
+  author = "Gray Zein Syah Putra"
+  description = "Personal blog by Gray"
+  
+  # Font - Sans-serif clean
+  fontFamily = "sans-serif"
+  
+  # Clean minimal design
+  enableHeader = true
+  enableFooter = true
+  enableMenu = true
+  
+  # Post settings
+  listDateFormat = "2006-01-02"
+  
+  # Minimal & Clean
+  enablePostMeta = true
+  enablePostShare = false
+  enableRelatedPosts = false
+  
+  # Dark mode option
+  enableDarkMode = true
+  defaultTheme = "light"
+
+[params.style]
+  fontFamilyBody = "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif"
+  fontFamilyTitle = "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 2
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 3
+
+[outputs]
+  home = ["HTML", "RSS"]
+  page = ["HTML"]
+  section = ["HTML", "RSS"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
