@@ -1,7 +1,7 @@
-/* 3 column grid for post list */
+/* 2 column grid for post list */
 .post-entry {
     display: inline-block;
-    width: calc(33.333% - 20px);
+    width: calc(50% - 20px);
     vertical-align: top;
     margin: 10px;
 }
@@ -9,12 +9,6 @@
 .main .first-entry {
     width: 100%;
     margin: 0 0 20px 0;
-}
-
-@media (max-width: 900px) {
-    .post-entry {
-        width: calc(50% - 20px);
-    }
 }
 
 @media (max-width: 600px) {
