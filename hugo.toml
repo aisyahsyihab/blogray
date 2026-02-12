@@ -37,16 +37,16 @@ buildExpired = false
   showtoc = false
   tocopen = false
 
-  [params.homeInfoParams]
-    Title = "Blogray"
-    Content = "Personal blog by Gray Zein Syah Putra"
+  # [params.homeInfoParams]
+    # Title = "Blogray"
+    # Content = "Personal blog by Gray Zein Syah Putra"
 
   [params.profileMode]
     enabled = false
 
-  [[params.socialIcons]]
-    name = "email"
-    url = "mailto:gryzein@gmail.com"
+  # [[params.socialIcons]]
+    # name = "email"
+    # url = "mailto:gryzein@gmail.com"
 
 [params.cover]
   hidden = false
